@@ -190,13 +190,13 @@ export class Home extends Component {
     return (
       <div className="container">
         <h1 className="display-2">Danh sách sản phẩm</h1>
-        <p
-          className="text-right"
+        <button
+          className="text-right btn"
           data-bs-toggle="modal"
           data-bs-target="#exampleModal"
         >
           Giỏ hàng ({this.state.totalQuantity})
-        </p>
+        </button>
         <ProductList
           products={this.products}
           selectProduct={this.selectProduct}
