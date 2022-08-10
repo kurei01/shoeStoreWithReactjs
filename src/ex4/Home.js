@@ -191,7 +191,7 @@ export class Home extends Component {
       <div className="container">
         <h1 className="display-2">Danh sách sản phẩm</h1>
         <button
-          className="text-right btn btn-info my-4"
+          className="text-right btn btn-warning my-4"
           data-bs-toggle="modal"
           data-bs-target="#exampleModal"
         >
